@@ -126,7 +126,7 @@ Se trabaja con **interrupciones BIOS/DOS** y funciones de bajo nivel para aprend
 
 ```c
 int main(void) {
-    char c; // todas las variables locales al inicio
+    char c;
 
     // 1. Limpiar pantalla y establecer modo texto
     clrscr();
