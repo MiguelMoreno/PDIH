@@ -216,7 +216,7 @@ void asciidraw(void){
 // Función principal
 //*****************************************//
 int main(void) {
-    char c; // todas las variables locales al inicio
+    char c;
 
     // 1. Limpiar pantalla y establecer modo texto
     clrscr();
