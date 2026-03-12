@@ -1,8 +1,8 @@
 # Práctica: Módulo del Kernel Linux (LKM) – Hello World
 
-**Alumno:** Miguel Moreno Murcia
-**Curso/Grupo:** 4º
-**Repositorio:** PDIH / Carpeta LKM
+**Alumno:** Miguel Moreno Murcia  
+**Curso/Grupo:** 4º  
+**Repositorio:** PDIH / Carpeta LKM  
 
 ## 1. Descripción
 
