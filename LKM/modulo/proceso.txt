@@ -1,0 +1,24 @@
+
+# http://derekmolloy.ie/writing-a-linux-kernel-module-part-1-introduction/
+# http://derekmolloy.ie/writing-a-linux-kernel-module-part-2-a-character-device/
+
+# uname -a
+# sudo apt-get update
+# sudo apt-cache search linux-headers-$(uname -r)
+# sudo apt-get  install linux-headers-$(uname -r)
+
+make
+
+ls -l *.ko
+
+sudo insmod hello.ko
+lsmod
+
+modinfo hello.ko
+
+sudo rmmod hello.ko
+
+sudo su -
+cd /var/log
+tail -f kern.log
+
