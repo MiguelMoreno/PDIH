@@ -114,7 +114,7 @@ Se trabaja con **interrupciones BIOS/DOS** y funciones de bajo nivel para aprend
 
 - Dibuja un **ASCII art** de cohete en pantalla.  
 - Cada línea se coloca usando `gotoxy()`.  
-- Texto amarillo sobre fondo azul (`textcolor(14)`, `textbackground(1)`).  
+- Texto amarillo sobre fondo negro (`textcolor(14)`, `textbackground(0)`).  
 
 <p align="center">
   <img src="./img/captura9.png" width="400">
