@@ -189,62 +189,60 @@ void recuadro_texto(int x1, int y1, int x2, int y2){
 }
 
 void asciidraw(void){
-    textcolor(14);     // amarillo
-    textbackground(1); // azul
+    textcolor(14);
+    textbackground(0);
 
     // Línea 1
-    gotoxy(11,2); cputchar('.'); gotoxy(12,2); cputchar('d'); gotoxy(13,2); cputchar('8'); gotoxy(14,2); cputchar('b'); gotoxy(15,2); cputchar('.');
+    gotoxy(25,2); cputchar('.'); gotoxy(26,2); cputchar('d'); gotoxy(27,2); cputchar('8'); gotoxy(28,2); cputchar('b'); gotoxy(29,2); cputchar('.');
 
     // Línea 2
-    gotoxy(7,3); cputchar('_'); gotoxy(8,3); cputchar('.'); gotoxy(9,3); cputchar('d'); gotoxy(10,3); cputchar('8'); gotoxy(11,3); cputchar('8'); gotoxy(12,3); cputchar('8'); gotoxy(13,3); cputchar('8'); gotoxy(14,3); cputchar('8'); gotoxy(15,3); cputchar('8'); gotoxy(16,3); cputchar('8'); gotoxy(17,3); cputchar('b'); gotoxy(18,3); cputchar('_'); gotoxy(19,3); cputchar('.');
+    gotoxy(21,3); cputchar('_'); gotoxy(22,3); cputchar('.'); gotoxy(23,3); cputchar('d'); gotoxy(24,3); cputchar('8'); gotoxy(25,3); cputchar('8'); gotoxy(26,3); cputchar('8'); gotoxy(27,3); cputchar('8'); gotoxy(28,3); cputchar('8'); gotoxy(29,3); cputchar('8'); gotoxy(30,3); cputchar('8'); gotoxy(31,3); cputchar('b'); gotoxy(32,3); cputchar('.'); gotoxy(33,3); cputchar('_');
 
     // Línea 3
-    gotoxy(5,4); cputchar('.'); gotoxy(6,4); cputchar('8'); gotoxy(7,4); cputchar('8'); gotoxy(8,4); cputchar('8'); gotoxy(9,4); cputchar('8'); gotoxy(10,4); cputchar('8'); gotoxy(11,4); cputchar('8'); gotoxy(12,4); cputchar('8'); gotoxy(13,4); cputchar('8'); gotoxy(14,4); cputchar('8'); gotoxy(15,4); cputchar('8'); gotoxy(16,4); cputchar('8'); gotoxy(17,4); cputchar('8'); gotoxy(18,4); cputchar('8'); gotoxy(19,4); cputchar('8'); gotoxy(20,4); cputchar('b'); gotoxy(21,4); cputchar('.');
+    gotoxy(19,4); cputchar('.'); gotoxy(20,4); cputchar('d'); gotoxy(21,4); cputchar('8'); gotoxy(22,4); cputchar('8'); gotoxy(23,4); cputchar('8'); gotoxy(24,4); cputchar('8'); gotoxy(25,4); cputchar('8'); gotoxy(26,4); cputchar('8'); gotoxy(27,4); cputchar('8'); gotoxy(28,4); cputchar('8'); gotoxy(29,4); cputchar('8'); gotoxy(30,4); cputchar('8'); gotoxy(31,4); cputchar('8'); gotoxy(32,4); cputchar('8'); gotoxy(33,4); cputchar('8'); gotoxy(34,4); cputchar('b'); gotoxy(35,4); cputchar('.');
 
     // Línea 4
-    gotoxy(4,5); cputchar('d'); gotoxy(5,5); cputchar('8'); gotoxy(6,5); cputchar('8'); gotoxy(7,5); cputchar('8'); gotoxy(8,5); cputchar('8'); gotoxy(9,5); cputchar('8'); gotoxy(10,5); cputchar('8'); gotoxy(11,5); cputchar('8'); gotoxy(12,5); cputchar('8'); gotoxy(13,5); cputchar('8'); gotoxy(14,5); cputchar('8'); gotoxy(15,5); cputchar('8'); gotoxy(16,5); cputchar('8'); gotoxy(17,5); cputchar('8'); gotoxy(18,5); cputchar('8'); gotoxy(19,5); cputchar('8'); gotoxy(20,5); cputchar('8'); gotoxy(21,5); cputchar('8'); gotoxy(22,5); cputchar('b');
+    gotoxy(18,5); cputchar('d'); gotoxy(19,5); cputchar('8'); gotoxy(20,5); cputchar('8'); gotoxy(21,5); cputchar('8'); gotoxy(22,5); cputchar('8'); gotoxy(23,5); cputchar('8'); gotoxy(24,5); cputchar('8'); gotoxy(25,5); cputchar('8'); gotoxy(26,5); cputchar('8'); gotoxy(27,5); cputchar('8'); gotoxy(28,5); cputchar('8'); gotoxy(29,5); cputchar('8'); gotoxy(30,5); cputchar('8'); gotoxy(31,5); cputchar('8'); gotoxy(32,5); cputchar('8'); gotoxy(33,5); cputchar('8'); gotoxy(34,5); cputchar('8'); gotoxy(35,5); cputchar('8'); gotoxy(36,5); cputchar('b');
 
     // Línea 5
-    gotoxy(4,6); cputchar('8'); gotoxy(5,6); cputchar('8'); gotoxy(6,6); cputchar('8'); gotoxy(7,6); cputchar('8'); gotoxy(8,6); cputchar('8'); gotoxy(9,6); cputchar('8'); gotoxy(10,6); cputchar('8'); gotoxy(11,6); cputchar('8'); gotoxy(12,6); cputchar('8'); gotoxy(13,6); cputchar('8'); gotoxy(14,6); cputchar('8'); gotoxy(15,6); cputchar('8'); gotoxy(16,6); cputchar('8'); gotoxy(17,6); cputchar('8'); gotoxy(18,6); cputchar('8'); gotoxy(19,6); cputchar('8'); gotoxy(20,6); cputchar('8');
+    gotoxy(18,6); cputchar('8'); gotoxy(19,6); cputchar('8'); gotoxy(20,6); cputchar('8'); gotoxy(21,6); cputchar('8'); gotoxy(22,6); cputchar('8'); gotoxy(23,6); cputchar('8'); gotoxy(24,6); cputchar('8'); gotoxy(25,6); cputchar('8'); gotoxy(26,6); cputchar('8'); gotoxy(27,6); cputchar('8'); gotoxy(28,6); cputchar('8'); gotoxy(29,6); cputchar('8'); gotoxy(30,6); cputchar('8'); gotoxy(31,6); cputchar('8'); gotoxy(32,6); cputchar('8'); gotoxy(33,6); cputchar('8'); gotoxy(34,6); cputchar('8'); gotoxy(35,6); cputchar('8'); gotoxy(36,6); cputchar('8');
 
     // Línea 6
-    gotoxy(4,7); cputchar('Y'); gotoxy(5,7); cputchar('8'); gotoxy(6,7); cputchar('8'); gotoxy(7,7); cputchar('8'); gotoxy(8,7); cputchar('8'); gotoxy(9,7); cputchar('8'); gotoxy(10,7); cputchar('8'); gotoxy(11,7); cputchar('8'); gotoxy(12,7); cputchar('8'); gotoxy(13,7); cputchar('8'); gotoxy(14,7); cputchar('8'); gotoxy(15,7); cputchar('8'); gotoxy(16,7); cputchar('8'); gotoxy(17,7); cputchar('8'); gotoxy(18,7); cputchar('8'); gotoxy(19,7); cputchar('8'); gotoxy(20,7); cputchar('P');
+    gotoxy(19,7); cputchar('Y'); gotoxy(20,7); cputchar('8'); gotoxy(21,7); cputchar('8'); gotoxy(22,7); cputchar('8'); gotoxy(23,7); cputchar('8'); gotoxy(24,7); cputchar('8'); gotoxy(25,7); cputchar('8'); gotoxy(26,7); cputchar('8'); gotoxy(27,7); cputchar('8'); gotoxy(28,7); cputchar('8'); gotoxy(29,7); cputchar('8'); gotoxy(30,7); cputchar('8'); gotoxy(31,7); cputchar('8'); gotoxy(32,7); cputchar('8'); gotoxy(33,7); cputchar('8'); gotoxy(34,7); cputchar('8'); gotoxy(35,7); cputchar('P');
 
     // Línea 7
-    gotoxy(5,8); cputchar('\''); gotoxy(6,8); cputchar('Y'); gotoxy(7,8); cputchar('8'); gotoxy(8,8); cputchar('8'); gotoxy(9,8); cputchar('8'); gotoxy(10,8); cputchar('8'); gotoxy(11,8); cputchar('8'); gotoxy(12,8); cputchar('8'); gotoxy(13,8); cputchar('8'); gotoxy(14,8); cputchar('8'); gotoxy(15,8); cputchar('8'); gotoxy(16,8); cputchar('8'); gotoxy(17,8); cputchar('8'); gotoxy(18,8); cputchar('P'); gotoxy(19,8); cputchar('\'');
+    gotoxy(20,8); cputchar('\''); gotoxy(21,8); cputchar('Y'); gotoxy(22,8); cputchar('8'); gotoxy(23,8); cputchar('8'); gotoxy(24,8); cputchar('8'); gotoxy(25,8); cputchar('8'); gotoxy(26,8); cputchar('8'); gotoxy(27,8); cputchar('8'); gotoxy(28,8); cputchar('8'); gotoxy(29,8); cputchar('8'); gotoxy(30,8); cputchar('8'); gotoxy(31,8); cputchar('8');gotoxy(32,8); cputchar('8'); gotoxy(33,8); cputchar('P'); gotoxy(34,8); cputchar('\'');
 
     // Línea 8
-    gotoxy(3,9); cputchar('_'); gotoxy(4,9); cputchar('.'); gotoxy(5,9); cputchar('.'); gotoxy(6,9); cputchar('.'); gotoxy(7,9); cputchar('_'); gotoxy(8,9); cputchar(' '); gotoxy(9,9); cputchar('\''); gotoxy(10,9); cputchar('Y'); gotoxy(11,9); cputchar('8'); gotoxy(12,9); cputchar('8'); gotoxy(13,9); cputchar('8'); gotoxy(14,9); cputchar('8'); gotoxy(15,9); cputchar('8'); gotoxy(16,9); cputchar('P'); gotoxy(17,9); cputchar('\''); gotoxy(18,9); cputchar(' '); gotoxy(19,9); cputchar('_'); gotoxy(20,9); cputchar('.'); gotoxy(21,9); cputchar('.'); gotoxy(22,9); cputchar('.'); gotoxy(23,9); cputchar('_');
+    gotoxy(17,9); cputchar('_'); gotoxy(18,9); cputchar('.'); gotoxy(19,9); cputchar('.'); gotoxy(20,9); cputchar('.'); gotoxy(21,9); cputchar('_'); gotoxy(22,9); cputchar(' '); gotoxy(23,9); cputchar('\''); gotoxy(24,9); cputchar('Y'); gotoxy(25,9); cputchar('8'); gotoxy(26,9); cputchar('8'); gotoxy(27,9); cputchar('8'); gotoxy(28,9); cputchar('8');gotoxy(29,9); cputchar('8'); gotoxy(30,9); cputchar('P'); gotoxy(31,9); cputchar('\''); gotoxy(32,9); cputchar(' '); gotoxy(33,9); cputchar('_'); gotoxy(34,9); cputchar('.'); gotoxy(35,9); cputchar('.'); gotoxy(36,9); cputchar('.'); gotoxy(37,9); cputchar('_');
 
     // Línea 9
-    gotoxy(2,10); cputchar('.'); gotoxy(3,10); cputchar('d'); gotoxy(4,10); cputchar('8'); gotoxy(5,10); cputchar('8'); gotoxy(6,10); cputchar('8'); gotoxy(7,10); cputchar('8'); gotoxy(8,10); cputchar('8'); gotoxy(9,10); cputchar('b'); gotoxy(10,10); cputchar('.'); gotoxy(12,10); cputchar('Y'); gotoxy(13,10); cputchar('8'); gotoxy(14,10); cputchar('8'); gotoxy(15,10); cputchar('8'); gotoxy(16,10); cputchar('P'); gotoxy(18,10); cputchar('.'); gotoxy(19,10); cputchar('d'); gotoxy(20,10); cputchar('8'); gotoxy(21,10); cputchar('8'); gotoxy(22,10); cputchar('8'); gotoxy(23,10); cputchar('8'); gotoxy(24,10); cputchar('8'); gotoxy(25,10); cputchar('b'); gotoxy(26,10); cputchar('.');
+    gotoxy(15,10); cputchar('.'); gotoxy(16,10); cputchar('d'); gotoxy(17,10); cputchar('8'); gotoxy(18,10); cputchar('8'); gotoxy(19,10); cputchar('8'); gotoxy(20,10); cputchar('8'); gotoxy(21,10); cputchar('8'); gotoxy(22,10); cputchar('b'); gotoxy(23,10); cputchar('.'); gotoxy(24,10); cputchar(' '); gotoxy(25,10); cputchar('Y'); gotoxy(26,10); cputchar('8'); gotoxy(27,10); cputchar('8'); gotoxy(28,10); cputchar('8'); gotoxy(29,10); cputchar('P'); gotoxy(30,10); cputchar(' '); gotoxy(31,10); cputchar('.'); gotoxy(32,10); cputchar('d'); gotoxy(33,10); cputchar('8'); gotoxy(34,10); cputchar('8'); gotoxy(35,10); cputchar('8'); gotoxy(36,10); cputchar('8'); gotoxy(37,10); cputchar('8'); gotoxy(38,10); cputchar('b');
 
     // Línea 10
-    gotoxy(1,11); cputchar('d'); gotoxy(2,11); cputchar('8'); gotoxy(3,11); cputchar('8'); gotoxy(4,11); cputchar('8'); gotoxy(5,11); cputchar('8'); gotoxy(6,11); cputchar('8'); gotoxy(7,11); cputchar('8'); gotoxy(8,11); cputchar('8'); gotoxy(9,11); cputchar('8'); gotoxy(10,11); cputchar('b'); gotoxy(13,11); cputchar('8'); gotoxy(15,11); cputchar('d'); gotoxy(16,11); cputchar('8'); gotoxy(17,11); cputchar('8'); gotoxy(18,11); cputchar('8'); gotoxy(19,11); cputchar('8'); gotoxy(20,11); cputchar('8'); gotoxy(21,11); cputchar('8'); gotoxy(22,11); cputchar('8'); gotoxy(23,11); cputchar('b');
+    gotoxy(16,11); cputchar('d'); gotoxy(17,11); cputchar('8'); gotoxy(18,11); cputchar('8'); gotoxy(19,11); cputchar('8'); gotoxy(20,11); cputchar('P'); gotoxy(21,11); cputchar(' '); gotoxy(22,11); cputchar('`'); gotoxy(23,11); cputchar('Y'); gotoxy(24,11); cputchar('8'); gotoxy(25,11); cputchar('8'); gotoxy(26,11); cputchar('8'); gotoxy(27,11); cputchar('8'); gotoxy(28,11); cputchar('8'); gotoxy(29,11); cputchar('8'); gotoxy(30,11); cputchar('8'); gotoxy(31,11); cputchar('P'); gotoxy(32,11); cputchar('\''); gotoxy(33,11); cputchar(' '); gotoxy(34,11); cputchar('Y'); gotoxy(35,11); cputchar('8'); gotoxy(36,11); cputchar('8'); gotoxy(37,11); cputchar('8');
 
     // Línea 11
-    gotoxy(1,12); cputchar('8'); gotoxy(2,12); cputchar('8'); gotoxy(3,12); cputchar('8'); gotoxy(4,12); cputchar('P'); gotoxy(6,12); cputchar('`'); gotoxy(7,12); cputchar('Y'); gotoxy(8,12); cputchar('8'); gotoxy(9,12); cputchar('8'); gotoxy(10,12); cputchar('8'); gotoxy(11,12); cputchar('8'); gotoxy(12,12); cputchar('8'); gotoxy(13,12); cputchar('8'); gotoxy(14,12); cputchar('8'); gotoxy(15,12); cputchar('8'); gotoxy(16,12); cputchar('8'); gotoxy(17,12); cputchar('8'); gotoxy(18,12); cputchar('8'); gotoxy(19,12); cputchar('P'); gotoxy(21,12); cputchar('Y'); gotoxy(22,12); cputchar('8'); gotoxy(23,12); cputchar('8'); gotoxy(24,12); cputchar('8');
+    gotoxy(17,12); cputchar('b'); gotoxy(18,12); cputchar('8'); gotoxy(19,12); cputchar('b'); gotoxy(20,12); cputchar(' '); gotoxy(21,12); cputchar(' '); gotoxy(22,12); cputchar(' '); gotoxy(23,12); cputchar(' '); gotoxy(24,12); cputchar('Y'); gotoxy(25,12); cputchar('8'); gotoxy(26,12); cputchar('8'); gotoxy(27,12); cputchar('8'); gotoxy(28,12); cputchar('8'); gotoxy(29,12); cputchar('8'); gotoxy(30,12); cputchar('8'); gotoxy(31,12); cputchar('P'); gotoxy(32,12); cputchar(' '); gotoxy(33,12); cputchar(' '); gotoxy(34,12); cputchar(' '); gotoxy(35,12); cputchar('d'); gotoxy(36,12); cputchar('8'); gotoxy(37,12); cputchar('Y');
 
     // Línea 12
-    gotoxy(1,13); cputchar('b'); gotoxy(2,13); cputchar('8'); gotoxy(3,13); cputchar('b'); gotoxy(7,13); cputchar('Y'); gotoxy(8,13); cputchar('8'); gotoxy(9,13); cputchar('8'); gotoxy(10,13); cputchar('8'); gotoxy(11,13); cputchar('8'); gotoxy(12,13); cputchar('8'); gotoxy(13,13); cputchar('8'); gotoxy(14,13); cputchar('8'); gotoxy(15,13); cputchar('P'); gotoxy(21,13); cputchar('d'); gotoxy(22,13); cputchar('8'); gotoxy(23,13); cputchar('Y');
+    gotoxy(17,13); cputchar('`'); gotoxy(18,13); cputchar('"'); gotoxy(19,13); cputchar('\''); gotoxy(20,13); cputchar(' '); gotoxy(21,13); cputchar('#'); gotoxy(22,13); cputchar('#'); gotoxy(23,13); cputchar('#'); gotoxy(24,13); cputchar('#'); gotoxy(25,13); cputchar('#'); gotoxy(26,13); cputchar('#'); gotoxy(27,13); cputchar('#'); gotoxy(28,13); cputchar('#'); gotoxy(29,13); cputchar('#'); gotoxy(30,13); cputchar('#'); gotoxy(31,13); cputchar('#'); gotoxy(32,13); cputchar('#'); gotoxy(33,13); cputchar('#'); gotoxy(34,13); cputchar(' '); gotoxy(35,13); cputchar('\''); gotoxy(36,13); cputchar('"'); gotoxy(37,13); cputchar('`');
 
     // Línea 13
-    gotoxy(1,14); cputchar('`'); gotoxy(2,14); cputchar('"'); gotoxy(3,14); cputchar('\''); gotoxy(5,14); cputchar('#'); gotoxy(6,14); cputchar('#'); gotoxy(7,14); cputchar('#'); gotoxy(8,14); cputchar('#'); gotoxy(9,14); cputchar('#'); gotoxy(10,14); cputchar('#'); gotoxy(11,14); cputchar('#'); gotoxy(12,14); cputchar('#'); gotoxy(13,14); cputchar('#'); gotoxy(14,14); cputchar('#'); gotoxy(15,14); cputchar('#'); gotoxy(16,14); cputchar('#'); gotoxy(17,14); cputchar('#'); gotoxy(18,14); cputchar('#'); gotoxy(19,14); cputchar('#'); gotoxy(20,14); cputchar('#'); gotoxy(22,14); cputchar('\''); gotoxy(23,14); cputchar('"'); gotoxy(24,14); cputchar('`');
+    gotoxy(23,14); cputchar('d'); gotoxy(24,14); cputchar('P'); gotoxy(25,14); cputchar(' '); gotoxy(26,14); cputchar('d'); gotoxy(27,14); cputchar('8'); gotoxy(28,14); cputchar('b'); gotoxy(29,14); cputchar(' '); gotoxy(30,14); cputchar('Y'); gotoxy(31,14); cputchar('b');
 
     // Línea 14
-    gotoxy(9,15); cputchar('d'); gotoxy(10,15); cputchar('P'); gotoxy(12,15); cputchar('d'); gotoxy(13,15); cputchar('8'); gotoxy(14,15); cputchar('b'); gotoxy(16,15); cputchar('Y'); gotoxy(17,15); cputchar('b');
+    gotoxy(19,15); cputchar('O'); gotoxy(20,15); cputchar('b'); gotoxy(21,15); cputchar('='); gotoxy(22,15); cputchar('d'); gotoxy(23,15); cputchar('P'); gotoxy(24,15); cputchar(' '); gotoxy(25,15); cputchar('d'); gotoxy(26,15); cputchar('8'); gotoxy(27,15); cputchar('8'); gotoxy(28,15); cputchar('8'); gotoxy(29,15); cputchar('b'); gotoxy(30,15); cputchar(' '); gotoxy(31,15); cputchar('Y'); gotoxy(32,15); cputchar('b'); gotoxy(33,15); cputchar('='); gotoxy(34,15); cputchar('d'); gotoxy(35,15); cputchar('O');
 
     // Línea 15
-    gotoxy(5,16); cputchar('O'); gotoxy(6,16); cputchar('b'); gotoxy(7,16); cputchar('='); gotoxy(8,16); cputchar('d'); gotoxy(9,16); cputchar('P'); gotoxy(11,16); cputchar('d'); gotoxy(12,16); cputchar('8'); gotoxy(13,16); cputchar('8'); gotoxy(14,16); cputchar('8'); gotoxy(15,16); cputchar('b'); gotoxy(17,16); cputchar('Y'); gotoxy(18,16); cputchar('b'); gotoxy(19,16); cputchar('=');
+    gotoxy(20,16); cputchar('`'); gotoxy(21,16); cputchar('"'); gotoxy(22,16); cputchar('`'); gotoxy(23,16); cputchar(' '); gotoxy(24,16); cputchar('O'); gotoxy(25,16); cputchar('8'); gotoxy(26,16); cputchar('8'); gotoxy(27,16); cputchar('8'); gotoxy(28,16); cputchar('8'); gotoxy(29,16); cputchar('8'); gotoxy(30,16); cputchar('O'); gotoxy(31,16); cputchar(' '); gotoxy(32,16); cputchar('`'); gotoxy(33,16); cputchar('"'); gotoxy(34,16); cputchar('`');
 
     // Línea 16
-    gotoxy(7,17); cputchar('`'); gotoxy(8,17); cputchar('"'); gotoxy(9,17); cputchar('`'); gotoxy(11,17); cputchar('O'); gotoxy(12,17); cputchar('8'); gotoxy(13,17); cputchar('8'); gotoxy(14,17); cputchar('8'); gotoxy(15,17); cputchar('8'); gotoxy(16,17); cputchar('8'); gotoxy(17,17); cputchar('O'); gotoxy(19,17); cputchar('`'); gotoxy(20,17); cputchar('"'); gotoxy(21,17); cputchar('`');
+    gotoxy(25,17); cputchar('\''); gotoxy(26,17); cputchar('Y'); gotoxy(27,17); cputchar('8'); gotoxy(28,17); cputchar('P'); gotoxy(29,17); cputchar('\'');
 
     // Línea 17
-    gotoxy(12,18); cputchar('\''); gotoxy(13,18); cputchar('Y'); gotoxy(14,18); cputchar('8'); gotoxy(15,18); cputchar('P'); gotoxy(16,18); cputchar('\'');
+    gotoxy(27,18); cputchar('\'');
 
-    // Línea 18
-    gotoxy(14,19); cputchar('\'');
 }
 
 //*****************************************//
