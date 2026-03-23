@@ -117,7 +117,7 @@ Se trabaja con **interrupciones BIOS/DOS** y funciones de bajo nivel para aprend
 - Texto amarillo sobre fondo azul (`textcolor(14)`, `textbackground(1)`).  
 
 <p align="center">
-  <img src="./img/captura7.png" width="400">
+  <img src="./img/captura9.png" width="400">
 </p>
 
 ---
