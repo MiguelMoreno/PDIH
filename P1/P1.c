@@ -192,24 +192,59 @@ void asciidraw(void){
     textcolor(14);     // amarillo
     textbackground(1); // azul
 
-    gotoxy(11, 2);   printf(".d8b.");
-    gotoxy(7, 3);   printf("_.d8888888b._");
-    gotoxy(5, 4);   printf(".88888888888888b.");
-    gotoxy(4, 5);   printf("d88888888888888888b");
-    gotoxy(4, 6);   printf("8888888888888888888");
-    gotoxy(4, 7);   printf("Y88888888888888888P");
-    gotoxy(5, 8);   printf("'Y8888888888888P'");
-    gotoxy(3, 9);   printf("_..._ 'Y88888P' _..._");
-    gotoxy(2,10);   printf(".d88888b. Y888P .d88888b.");
-    gotoxy(1,11);   printf("d888888888b 888 d88888888b");
-    gotoxy(1,12);   printf("888P  `Y8888888888P'  Y888");
-    gotoxy(1,13);   printf("b8b    Y88888888P    d8Y");
-    gotoxy(1,14);   printf("`\"'  #############  '\"`");
-    gotoxy(9,15);   printf("dP d8b Yb");
-    gotoxy(5,16);   printf("Ob=dP d888b Yb=dO");
-    gotoxy(7,17);   printf("`\"` O88888O `\"`");
-    gotoxy(12,18);  printf("'Y8P'");
-    gotoxy(14,19);  printf("'");
+    // Línea 1
+    gotoxy(11,2); cputchar('.'); gotoxy(12,2); cputchar('d'); gotoxy(13,2); cputchar('8'); gotoxy(14,2); cputchar('b'); gotoxy(15,2); cputchar('.');
+
+    // Línea 2
+    gotoxy(7,3); cputchar('_'); gotoxy(8,3); cputchar('.'); gotoxy(9,3); cputchar('d'); gotoxy(10,3); cputchar('8'); gotoxy(11,3); cputchar('8'); gotoxy(12,3); cputchar('8'); gotoxy(13,3); cputchar('8'); gotoxy(14,3); cputchar('8'); gotoxy(15,3); cputchar('8'); gotoxy(16,3); cputchar('8'); gotoxy(17,3); cputchar('b'); gotoxy(18,3); cputchar('_'); gotoxy(19,3); cputchar('.');
+
+    // Línea 3
+    gotoxy(5,4); cputchar('.'); gotoxy(6,4); cputchar('8'); gotoxy(7,4); cputchar('8'); gotoxy(8,4); cputchar('8'); gotoxy(9,4); cputchar('8'); gotoxy(10,4); cputchar('8'); gotoxy(11,4); cputchar('8'); gotoxy(12,4); cputchar('8'); gotoxy(13,4); cputchar('8'); gotoxy(14,4); cputchar('8'); gotoxy(15,4); cputchar('8'); gotoxy(16,4); cputchar('8'); gotoxy(17,4); cputchar('8'); gotoxy(18,4); cputchar('8'); gotoxy(19,4); cputchar('8'); gotoxy(20,4); cputchar('b'); gotoxy(21,4); cputchar('.');
+
+    // Línea 4
+    gotoxy(4,5); cputchar('d'); gotoxy(5,5); cputchar('8'); gotoxy(6,5); cputchar('8'); gotoxy(7,5); cputchar('8'); gotoxy(8,5); cputchar('8'); gotoxy(9,5); cputchar('8'); gotoxy(10,5); cputchar('8'); gotoxy(11,5); cputchar('8'); gotoxy(12,5); cputchar('8'); gotoxy(13,5); cputchar('8'); gotoxy(14,5); cputchar('8'); gotoxy(15,5); cputchar('8'); gotoxy(16,5); cputchar('8'); gotoxy(17,5); cputchar('8'); gotoxy(18,5); cputchar('8'); gotoxy(19,5); cputchar('8'); gotoxy(20,5); cputchar('8'); gotoxy(21,5); cputchar('8'); gotoxy(22,5); cputchar('b');
+
+    // Línea 5
+    gotoxy(4,6); cputchar('8'); gotoxy(5,6); cputchar('8'); gotoxy(6,6); cputchar('8'); gotoxy(7,6); cputchar('8'); gotoxy(8,6); cputchar('8'); gotoxy(9,6); cputchar('8'); gotoxy(10,6); cputchar('8'); gotoxy(11,6); cputchar('8'); gotoxy(12,6); cputchar('8'); gotoxy(13,6); cputchar('8'); gotoxy(14,6); cputchar('8'); gotoxy(15,6); cputchar('8'); gotoxy(16,6); cputchar('8'); gotoxy(17,6); cputchar('8'); gotoxy(18,6); cputchar('8'); gotoxy(19,6); cputchar('8'); gotoxy(20,6); cputchar('8');
+
+    // Línea 6
+    gotoxy(4,7); cputchar('Y'); gotoxy(5,7); cputchar('8'); gotoxy(6,7); cputchar('8'); gotoxy(7,7); cputchar('8'); gotoxy(8,7); cputchar('8'); gotoxy(9,7); cputchar('8'); gotoxy(10,7); cputchar('8'); gotoxy(11,7); cputchar('8'); gotoxy(12,7); cputchar('8'); gotoxy(13,7); cputchar('8'); gotoxy(14,7); cputchar('8'); gotoxy(15,7); cputchar('8'); gotoxy(16,7); cputchar('8'); gotoxy(17,7); cputchar('8'); gotoxy(18,7); cputchar('8'); gotoxy(19,7); cputchar('8'); gotoxy(20,7); cputchar('P');
+
+    // Línea 7
+    gotoxy(5,8); cputchar('\''); gotoxy(6,8); cputchar('Y'); gotoxy(7,8); cputchar('8'); gotoxy(8,8); cputchar('8'); gotoxy(9,8); cputchar('8'); gotoxy(10,8); cputchar('8'); gotoxy(11,8); cputchar('8'); gotoxy(12,8); cputchar('8'); gotoxy(13,8); cputchar('8'); gotoxy(14,8); cputchar('8'); gotoxy(15,8); cputchar('8'); gotoxy(16,8); cputchar('8'); gotoxy(17,8); cputchar('8'); gotoxy(18,8); cputchar('P'); gotoxy(19,8); cputchar('\'');
+
+    // Línea 8
+    gotoxy(3,9); cputchar('_'); gotoxy(4,9); cputchar('.'); gotoxy(5,9); cputchar('.'); gotoxy(6,9); cputchar('.'); gotoxy(7,9); cputchar('_'); gotoxy(8,9); cputchar(' '); gotoxy(9,9); cputchar('\''); gotoxy(10,9); cputchar('Y'); gotoxy(11,9); cputchar('8'); gotoxy(12,9); cputchar('8'); gotoxy(13,9); cputchar('8'); gotoxy(14,9); cputchar('8'); gotoxy(15,9); cputchar('8'); gotoxy(16,9); cputchar('P'); gotoxy(17,9); cputchar('\''); gotoxy(18,9); cputchar(' '); gotoxy(19,9); cputchar('_'); gotoxy(20,9); cputchar('.'); gotoxy(21,9); cputchar('.'); gotoxy(22,9); cputchar('.'); gotoxy(23,9); cputchar('_');
+
+    // Línea 9
+    gotoxy(2,10); cputchar('.'); gotoxy(3,10); cputchar('d'); gotoxy(4,10); cputchar('8'); gotoxy(5,10); cputchar('8'); gotoxy(6,10); cputchar('8'); gotoxy(7,10); cputchar('8'); gotoxy(8,10); cputchar('8'); gotoxy(9,10); cputchar('b'); gotoxy(10,10); cputchar('.'); gotoxy(12,10); cputchar('Y'); gotoxy(13,10); cputchar('8'); gotoxy(14,10); cputchar('8'); gotoxy(15,10); cputchar('8'); gotoxy(16,10); cputchar('P'); gotoxy(18,10); cputchar('.'); gotoxy(19,10); cputchar('d'); gotoxy(20,10); cputchar('8'); gotoxy(21,10); cputchar('8'); gotoxy(22,10); cputchar('8'); gotoxy(23,10); cputchar('8'); gotoxy(24,10); cputchar('8'); gotoxy(25,10); cputchar('b'); gotoxy(26,10); cputchar('.');
+
+    // Línea 10
+    gotoxy(1,11); cputchar('d'); gotoxy(2,11); cputchar('8'); gotoxy(3,11); cputchar('8'); gotoxy(4,11); cputchar('8'); gotoxy(5,11); cputchar('8'); gotoxy(6,11); cputchar('8'); gotoxy(7,11); cputchar('8'); gotoxy(8,11); cputchar('8'); gotoxy(9,11); cputchar('8'); gotoxy(10,11); cputchar('b'); gotoxy(13,11); cputchar('8'); gotoxy(15,11); cputchar('d'); gotoxy(16,11); cputchar('8'); gotoxy(17,11); cputchar('8'); gotoxy(18,11); cputchar('8'); gotoxy(19,11); cputchar('8'); gotoxy(20,11); cputchar('8'); gotoxy(21,11); cputchar('8'); gotoxy(22,11); cputchar('8'); gotoxy(23,11); cputchar('b');
+
+    // Línea 11
+    gotoxy(1,12); cputchar('8'); gotoxy(2,12); cputchar('8'); gotoxy(3,12); cputchar('8'); gotoxy(4,12); cputchar('P'); gotoxy(6,12); cputchar('`'); gotoxy(7,12); cputchar('Y'); gotoxy(8,12); cputchar('8'); gotoxy(9,12); cputchar('8'); gotoxy(10,12); cputchar('8'); gotoxy(11,12); cputchar('8'); gotoxy(12,12); cputchar('8'); gotoxy(13,12); cputchar('8'); gotoxy(14,12); cputchar('8'); gotoxy(15,12); cputchar('8'); gotoxy(16,12); cputchar('8'); gotoxy(17,12); cputchar('8'); gotoxy(18,12); cputchar('8'); gotoxy(19,12); cputchar('P'); gotoxy(21,12); cputchar('Y'); gotoxy(22,12); cputchar('8'); gotoxy(23,12); cputchar('8'); gotoxy(24,12); cputchar('8');
+
+    // Línea 12
+    gotoxy(1,13); cputchar('b'); gotoxy(2,13); cputchar('8'); gotoxy(3,13); cputchar('b'); gotoxy(7,13); cputchar('Y'); gotoxy(8,13); cputchar('8'); gotoxy(9,13); cputchar('8'); gotoxy(10,13); cputchar('8'); gotoxy(11,13); cputchar('8'); gotoxy(12,13); cputchar('8'); gotoxy(13,13); cputchar('8'); gotoxy(14,13); cputchar('8'); gotoxy(15,13); cputchar('P'); gotoxy(21,13); cputchar('d'); gotoxy(22,13); cputchar('8'); gotoxy(23,13); cputchar('Y');
+
+    // Línea 13
+    gotoxy(1,14); cputchar('`'); gotoxy(2,14); cputchar('"'); gotoxy(3,14); cputchar('\''); gotoxy(5,14); cputchar('#'); gotoxy(6,14); cputchar('#'); gotoxy(7,14); cputchar('#'); gotoxy(8,14); cputchar('#'); gotoxy(9,14); cputchar('#'); gotoxy(10,14); cputchar('#'); gotoxy(11,14); cputchar('#'); gotoxy(12,14); cputchar('#'); gotoxy(13,14); cputchar('#'); gotoxy(14,14); cputchar('#'); gotoxy(15,14); cputchar('#'); gotoxy(16,14); cputchar('#'); gotoxy(17,14); cputchar('#'); gotoxy(18,14); cputchar('#'); gotoxy(19,14); cputchar('#'); gotoxy(20,14); cputchar('#'); gotoxy(22,14); cputchar('\''); gotoxy(23,14); cputchar('"'); gotoxy(24,14); cputchar('`');
+
+    // Línea 14
+    gotoxy(9,15); cputchar('d'); gotoxy(10,15); cputchar('P'); gotoxy(12,15); cputchar('d'); gotoxy(13,15); cputchar('8'); gotoxy(14,15); cputchar('b'); gotoxy(16,15); cputchar('Y'); gotoxy(17,15); cputchar('b');
+
+    // Línea 15
+    gotoxy(5,16); cputchar('O'); gotoxy(6,16); cputchar('b'); gotoxy(7,16); cputchar('='); gotoxy(8,16); cputchar('d'); gotoxy(9,16); cputchar('P'); gotoxy(11,16); cputchar('d'); gotoxy(12,16); cputchar('8'); gotoxy(13,16); cputchar('8'); gotoxy(14,16); cputchar('8'); gotoxy(15,16); cputchar('b'); gotoxy(17,16); cputchar('Y'); gotoxy(18,16); cputchar('b'); gotoxy(19,16); cputchar('=');
+
+    // Línea 16
+    gotoxy(7,17); cputchar('`'); gotoxy(8,17); cputchar('"'); gotoxy(9,17); cputchar('`'); gotoxy(11,17); cputchar('O'); gotoxy(12,17); cputchar('8'); gotoxy(13,17); cputchar('8'); gotoxy(14,17); cputchar('8'); gotoxy(15,17); cputchar('8'); gotoxy(16,17); cputchar('8'); gotoxy(17,17); cputchar('O'); gotoxy(19,17); cputchar('`'); gotoxy(20,17); cputchar('"'); gotoxy(21,17); cputchar('`');
+
+    // Línea 17
+    gotoxy(12,18); cputchar('\''); gotoxy(13,18); cputchar('Y'); gotoxy(14,18); cputchar('8'); gotoxy(15,18); cputchar('P'); gotoxy(16,18); cputchar('\'');
+
+    // Línea 18
+    gotoxy(14,19); cputchar('\'');
 }
 
 //*****************************************//
