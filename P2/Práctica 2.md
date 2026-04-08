@@ -157,5 +157,3 @@ Durante la partida se visualizan la pelota, la pala y el marcador de puntuación
 En la pantalla final se muestra si el jugador ha ganado o perdido, la puntuación obtenida y la opción de reiniciar o salir del juego.
 
 ---
-
-> Nota: Las imágenes deben almacenarse en una carpeta `img/` dentro del repositorio y referenciarse con la ruta relativa indicada.
