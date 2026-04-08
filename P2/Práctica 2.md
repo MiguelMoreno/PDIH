@@ -124,3 +124,38 @@ Finalmente, se cierra ncurses correctamente con:
 ```c
 endwin();
 ```
+
+---
+
+## Capturas de ejecución
+
+A continuación se muestran capturas del funcionamiento del programa durante sus diferentes fases:
+
+### Pantalla de inicio
+<p align="center">
+  <img src="./img/pantalla_inicio.png" width="500">
+</p>
+
+En esta pantalla se muestra el título del juego, las instrucciones de control y el mensaje para comenzar la partida.
+
+---
+
+### Pantalla de juego
+<p align="center">
+  <img src="./img/juego.png" width="500">
+</p>
+
+Durante la partida se visualizan la pelota, la pala y el marcador de puntuación, que se actualiza conforme el jugador golpea la pelota.
+
+---
+
+### Pantalla final
+<p align="center">
+  <img src="./img/pantalla_final.png" width="500">
+</p>
+
+En la pantalla final se muestra si el jugador ha ganado o perdido, la puntuación obtenida y la opción de reiniciar o salir del juego.
+
+---
+
+> Nota: Las imágenes deben almacenarse en una carpeta `img/` dentro del repositorio y referenciarse con la ruta relativa indicada.
